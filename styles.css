@@ -1,0 +1,120 @@
+/*BODY*/
+
+body {
+  background-image: url(http://downloadwallpaperhd.com/wp-content/uploads/2013/04/Spring-Landscape-HD-Wallpaper.jpg);
+  background-size: cover;
+  margin: 0 auto; 
+  padding: 0;
+} 
+
+.container {
+  width: 100%;
+  margin-top: -20px;
+}
+
+/*HEADER*/
+
+.navigation {
+	background-color: #000;
+	max-width: %100;
+}
+
+.navigation li {
+	list-style: none;
+	display: inline-block;
+	margin: 10px 30px;
+	padding: 15px;
+}
+
+li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+  color: #cdc9a5;  
+}
+
+/*FONTS*/
+
+h1 {
+	color: #fff;
+	text-align: center;
+	margin: 150px 0 0 0;
+	padding: 3px;
+	text-shadow: 4px 5px 10px #000;
+	font-size: 50px;
+}
+
+/*IMAGES*/
+
+.media_img_contact {
+	text-align: right;
+	margin-right: 40px;
+	margin-top: 5px;
+}
+
+.twitter,  .fb{
+	border-radius: 99%;
+	width: 20px;	
+}
+
+.gallery{
+  position: absolute;
+  left: 18%;
+}
+
+.gallery img {
+	float: left;
+  width: 250px;
+  height: 190px;
+  margin: 20px;
+  box-shadow: 4px 6px 15px #000;
+}
+
+@media all and ( max-width: 1060px ) {
+	
+	.gallery img {
+		width: 200px;
+		height: 140px;
+	}
+
+	.gallery {
+		position: absolute;
+		left: 15%;
+	}
+}
+
+@media all and ( max-width: 963px ) {
+
+	body {
+		background-image: url(img/backgroundColor.png);
+	}
+
+	h1 {
+		margin: 100px 0 0 0;
+		font-size: 40px;
+	}
+
+}
+
+@media all and ( max-width: 600px ) {
+  
+  h1 {
+		margin: 15px 0 0 0;
+		font-size: 30px;
+	}
+
+	.gallery {
+		position: absolute;
+		left: 30%;
+	}
+
+	.gallery img {
+    width: 150px;
+    height: 90px;
+    margin-bottom: 2px;
+	}
+
+}
+
